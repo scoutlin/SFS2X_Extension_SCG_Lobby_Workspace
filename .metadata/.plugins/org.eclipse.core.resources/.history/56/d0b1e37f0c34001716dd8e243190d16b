@@ -1,0 +1,15 @@
+package scott.scg.mongodb;
+
+
+
+
+import java.util.Arrays;
+
+public class testLogin {
+	
+	public testLogin()
+	{
+		MongoClient
+	}
+
+}
