@@ -40,6 +40,7 @@ public class testLogin {
 
 		MongoClient mMongoClient = new MongoClient(uri);
 
+		
 
 		MongoDatabase database_scg = mMongoClient.getDatabase("scg");
 		rtString += "database.getName(): " + database_scg.getName();

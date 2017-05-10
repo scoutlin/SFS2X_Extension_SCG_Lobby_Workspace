@@ -1,0 +1,21 @@
+package scott.scg.mongodb;
+
+import com.mongodb.MongoClient;
+
+public class MyMongoClient
+{
+	public static MongoClient mMongoClient = null;
+	
+	public MongoClient GetIntance()
+	{
+		if(mMongoClient == null)
+		{
+			mMongoClient = new MongoClient();
+			return mMongoClient; 
+		}
+		else
+		{
+			return mMongoClient;
+		}
+	}
+}

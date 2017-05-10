@@ -1,0 +1,21 @@
+package scott.scg.mongodb;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoDatabase;
+
+public class TestAddCollection
+{
+	public TestAddCollection()
+	{
+		
+	}
+	
+	public void AddCollecion(String collectionName)
+	{
+		MongoDatabase database_scg = MongoClientScottAtlas.GetInstance().getDatabase("scg");
+		
+		database_scg.createCollection("scott");
+	}
+	
+	
+}

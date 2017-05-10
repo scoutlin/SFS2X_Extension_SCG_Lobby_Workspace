@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="com.mongodb.client.MongoCollection"/>
+<fullyQualifiedTypeName name="org.bson.Document"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyAddEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyBlockEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyListInitEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyMessageEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyOnlineStateUpdate"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyRemoveEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.BuddyVariablesUpdateEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.FileUploadEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.GameInvitationFailureEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.GameInvitationSuccessEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.PlayerToSpectatorEventHandler"/>
+<fullyQualifiedTypeName name="scott.scg.sfsEventHandler.PrivateMessageEventHandler"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.mongodb.client.FindIterable"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.mongodb.Block"/>
 <fullyQualifiedTypeName name="com.mongodb.DBObject"/>
 <fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+<fullyQualifiedTypeName name="com.mongodb.WriteResult"/>
+<fullyQualifiedTypeName name="com.mongodb.client.result.DeleteResult"/>
 </qualifiedTypeNameHistroy>

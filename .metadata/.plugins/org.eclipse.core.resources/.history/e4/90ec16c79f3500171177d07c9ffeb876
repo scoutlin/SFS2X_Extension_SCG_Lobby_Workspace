@@ -1,0 +1,5 @@
+package scott.scg.requestHandler.Lobby;
+
+public class MongoDBTestAddNewUserRequestHandler {
+
+}

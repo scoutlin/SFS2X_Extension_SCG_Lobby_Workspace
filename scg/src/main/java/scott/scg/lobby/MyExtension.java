@@ -6,6 +6,7 @@ package scott.scg.lobby;
 import com.smartfoxserver.v2.core.SFSEventType;
 import com.smartfoxserver.v2.extensions.SFSExtension;
 
+import scott.scg.mongodb.testLogin;
 import scott.scg.requestHandler.UserMsgRequestHandler;
 import scott.scg.sfsEventHandler.BuddyAddEventHandler;
 import scott.scg.sfsEventHandler.BuddyBlockEventHandler;
@@ -37,10 +38,6 @@ import scott.scg.sfsEventHandler.UserVariablesUpdateEventHandler;
 
 
 
-
-import scott.scg.mongodb.testLogin;
-
-
 /**
  * @author UX303
  *
@@ -53,12 +50,8 @@ public class MyExtension extends SFSExtension
 	public void init()
 	{
 		//TODO Auto-generated method stub
-		trace("!!FUCK!!");
+		trace("!! Rock And Roll!!");
 		
-		testLogin mtestLogin = new testLogin();
-		trace("!!Test DB Resulte Start!!");
-		trace(mtestLogin.CreateMongoClient());
-		trace("!!Test DB Resulte End!!");
 		
 		//EventHandler
 		this.addEventHandler(SFSEventType.BUDDY_ADD, BuddyAddEventHandler.class);
@@ -104,9 +97,6 @@ public class MyExtension extends SFSExtension
 		
 		//RequestHandler
 		this.addRequestHandler("UserMsg", UserMsgRequestHandler.class);
-		
-		
-		
 	}
 	
 	/**

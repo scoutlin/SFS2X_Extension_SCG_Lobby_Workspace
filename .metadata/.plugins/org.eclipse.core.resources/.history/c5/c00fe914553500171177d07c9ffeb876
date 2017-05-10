@@ -1,0 +1,57 @@
+package scott.scg.mongodb;
+
+import org.bson.Document;
+
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+
+public class TestMongoCommands
+{
+	private static TestMongoCommands mTestMongoCommands;
+	
+	public TestMongoCommands TestMongoCommands()
+	{
+		if(mTestMongoCommands == null)
+		{
+			mTestMongoCommands = new TestMongoCommands();
+			return mTestMongoCommands;
+		}
+		else
+		{
+			return mTestMongoCommands;
+		}	
+	}
+	
+	public String AddCollecion(String collectionName)
+	{
+		MongoDatabase database_scg = MongoClientScottAtlas.GetInstance().getDatabase("scg");
+		
+		database_scg.createCollection("scott");
+		
+		MongoCollection<Document> mMongoCollection = database_scg.getCollection(collectionName);
+		
+		return Long.toString(mMongoCollection.count());
+	}
+	
+	public String DeleteCollection()
+	{
+		return null;
+	}
+	
+	public String AddDocument()
+	{
+		return null;
+	}
+	
+	public String UpdateDocument()
+	{
+		return null;
+	}
+	
+	public String DeleteDocument()
+	{
+		return null;
+	}
+	 
+}

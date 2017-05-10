@@ -1,0 +1,12 @@
+package scott.scg.mongodb;
+
+import com.mongodb.MongoClient;
+
+public class Login
+{
+	public Login(String mongodbUrl)
+	{
+		
+	}
+
+}
