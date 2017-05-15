@@ -1,0 +1,25 @@
+package scott.scg.loginVerify;
+
+public class LoginVerify
+{
+	public LoginVerify()
+	{
+		
+	}
+	
+	public static LoginVerify mLoginVerify;
+	
+	public static LoginVerify GetInstance()
+	{
+		if(mLoginVerify == null)
+		{
+			mLoginVerify = new LoginVerify();
+			return mLoginVerify;
+		}
+		else
+		{
+			return mLoginVerify;
+		}
+	}
+
+}

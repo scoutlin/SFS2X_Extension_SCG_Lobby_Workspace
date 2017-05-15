@@ -831,3 +831,49 @@
 2017-05-11 00:45:56,636 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
 2017-05-11 00:45:56,637 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-11 00:45:56,637 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-12 15:26:44,196 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-05-12 15:26:51,236 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:26:51,238 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-12 15:26:51,241 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:26:51,241 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-12 15:27:05,980 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:27:05,981 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-12 15:27:05,982 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:27:05,982 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-12 15:27:07,121 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:27:07,122 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-12 15:27:07,127 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-12 15:27:07,128 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:28:00,858 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-05-15 11:32:12,018 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:32:12,020 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:32:12,022 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:32:12,022 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:34:14,747 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:34:14,747 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:34:14,748 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:34:14,748 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:34:29,328 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:34:29,328 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:34:29,329 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:34:29,330 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:37:28,806 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:37:28,806 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:37:28,807 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:37:28,807 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:40:13,998 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:40:13,998 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:40:14,000 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:40:14,000 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 11:44:32,181 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:44:32,182 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 11:44:32,182 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 11:44:32,183 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 19:04:28,822 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 19:04:28,822 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 19:04:28,823 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 19:04:28,823 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources
+2017-05-15 19:10:26,909 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 19:10:26,909 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\main\resources
+2017-05-15 19:10:26,911 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-15 19:10:26,911 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\SFS2X\SFS2X_Extension_SCG_Lobby\SFS2X_Extension_SCG_Lobby_Workspace\scg\src\test\resources

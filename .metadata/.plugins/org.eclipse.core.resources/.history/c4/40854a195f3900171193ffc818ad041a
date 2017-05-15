@@ -38,8 +38,6 @@ public class UserLoginEventHandler extends BaseServerEventHandler{
 		SFSObject loginOutData = (SFSObject)event.getParameter(SFSEventParam.LOGIN_OUT_DATA);
 		
 		
-		
-		
 		String name = (String) event.getParameter(SFSEventParam.LOGIN_NAME);
         
         if (name.equals("Gonzo") || name.equals("Kermit"))
