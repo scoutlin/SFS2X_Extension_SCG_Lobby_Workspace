@@ -24,4 +24,9 @@
 <fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
 <fullyQualifiedTypeName name="com.mongodb.WriteResult"/>
 <fullyQualifiedTypeName name="com.mongodb.client.result.DeleteResult"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+<fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+<fullyQualifiedTypeName name="scott.scg.loginVerify.LoginVerify"/>
+<fullyQualifiedTypeName name="scott.scg.loginVerify.LoginVerify.LoginInfo"/>
+<fullyQualifiedTypeName name="scott.scg.SFS2X_DataStruct.Common.LoginDataSruct"/>
 </qualifiedTypeNameHistroy>

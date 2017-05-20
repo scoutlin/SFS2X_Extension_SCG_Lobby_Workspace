@@ -1,5 +1,8 @@
 package scott.scg.sfsEventHandler;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 import com.smartfoxserver.bitswarm.sessions.Session;
 import com.smartfoxserver.v2.core.ISFSEvent;
 import com.smartfoxserver.v2.core.SFSEventParam;
@@ -8,6 +11,10 @@ import com.smartfoxserver.v2.entities.data.SFSObject;
 import com.smartfoxserver.v2.exceptions.SFSException;
 import com.smartfoxserver.v2.exceptions.SFSLoginException;
 import com.smartfoxserver.v2.extensions.BaseServerEventHandler;
+
+import scott.scg.SFS2X_DataStruct.CommonDataStruct.LoginDataSruct;
+import scott.scg.login.LoginVerify;
+
 
 /**
  * 
@@ -28,22 +35,72 @@ SFSEventParam.LOGIN_OUT_DATA: (optional) the outgoing custom object ( SFSObject 
  */
 public class UserLoginEventHandler extends BaseServerEventHandler{
 
+	private Lock lock = new ReentrantLock();
+	
+	
 	public void handleServerEvent(ISFSEvent event) throws SFSException {
 		// TODO Auto-generated method stub
-		Zone zone = (Zone)event.getParameter(SFSEventParam.ZONE);
-		Session session = (Session)event.getParameter(SFSEventParam.SESSION);
-		String userName = (String)event.getParameter(SFSEventParam.LOGIN_NAME);
-		String password = (String)event.getParameter(SFSEventParam.LOGIN_PASSWORD);
-		SFSObject loginInData = (SFSObject)event.getParameter(SFSEventParam.LOGIN_IN_DATA);
-		SFSObject loginOutData = (SFSObject)event.getParameter(SFSEventParam.LOGIN_OUT_DATA);
 		
+		lock.lock();
 		
-		
-		
-		String name = (String) event.getParameter(SFSEventParam.LOGIN_NAME);
-        
-        if (name.equals("Gonzo") || name.equals("Kermit"))
-            throw new SFSLoginException("Gonzo and Kermit are not allowed in this Zone!");
-	}
+		try{
+			boolean isLoginSuccess = false;
+			LoginDataSruct mLoginDataSruct = new LoginDataSruct();
+			
+			
+			
+			Zone zone = (Zone)event.getParameter(SFSEventParam.ZONE);
+			Session session = (Session)event.getParameter(SFSEventParam.SESSION);
+			String userName = (String)event.getParameter(SFSEventParam.LOGIN_NAME);
+			String password = (String)event.getParameter(SFSEventParam.LOGIN_PASSWORD);
+			SFSObject loginInData = (SFSObject)event.getParameter(SFSEventParam.LOGIN_IN_DATA);
+			SFSObject loginOutData = (SFSObject)event.getParameter(SFSEventParam.LOGIN_OUT_DATA);
+			
+			
+			
+			trace("Into UserLoginEventHandler");
+			
+			
+			//trace("zone - Name: " + zone.getName());
+			//trace("session - ClientPort: " + session.getClientPort());
+			//trace("userName: " + userName);
+			//trace("password: " + password);
+			//trace("loginInData - servrToken: " + loginInData.getText("servrToken").toString());
+			//trace("loginInData - fbToken: " + loginInData.getText("fbToken").toString());
+			//trace("loginOutData - getString: " + loginOutData.toString());
+			
+			
+			trace("serverToken: " + loginInData.getText("serverToken"));
+			trace("fbToken: " + loginInData.getText("fbToken"));
+			
+			
+			//Get LoginInfo from loginInData
+			String json = loginInData.getText("json");
+			//mLoginDataSruct = 
+			
+			//Call QuickLoginVerify
+			LoginVerify.GetInstance().StartVerifyLogin(mLoginDataSruct);
+			
+			//Test, direct return a test serverToken
+			loginOutData.putText("serverToken", "Jumbo,Jumbo.net");
+			
+			
 
+	        
+	        if (isLoginSuccess)
+	        {
+	            
+	        }
+	        else
+	        {
+	        	throw new SFSLoginException("Gonzo and Kermit are not allowed in this Zone!");
+	        }
+		}
+		//catch(Exception  e){
+		//	trace("ERROR - Exception: " + e.toString());
+		//}
+		finally{
+			lock.unlock();
+		}
+	}
 }
